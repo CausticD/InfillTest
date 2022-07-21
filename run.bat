@@ -1,0 +1,1 @@
+@call ..\Smart3mf\run2.bat

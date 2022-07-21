@@ -1,0 +1,24 @@
+<smart3mf>
+	<export file="InfillTest.3mf">
+		<base>
+			<name>Base</name>
+			<scad file="InfillTest.scad" key="sub_model" value="Base"/>    <!-- params="qrcode.json" preset="Defaults" -->
+			<transform>1.0 0.0 0.0  0.0 1.0 0.0  0.0 0.0 1.0  110.0 110.0 0.0</transform>
+		</base>
+		<model>
+			<name>Infill</name>
+			<scad file="InfillTest.scad" key="sub_model" value="Infill"/>
+			<transform>1.0 0.0 0.0  0.0 1.0 0.0  0.0 0.0 1.0  110.0 110.0 0.0</transform>
+			<metadatagroup>
+				<metadata name="cura:infill_pattern">gyroid</metadata>
+				<metadata name="cura:infill_sparse_density">11</metadata>
+				<metadata name="cura:top_bottom_thickness">0</metadata>
+				<metadata name="cura:wall_thickness">0</metadata>
+				<metadata name="cura:infill_overlap">0.0</metadata>
+			</metadatagroup>
+		</model>
+		<thumbnail>
+			<scad file="InfillTest.scad" key="sub_model" value="All" imgsize="256,256" camera="0,0,0,0,0,0,10"/>
+		</thumbnail>
+	</export>
+</smart3mf>
