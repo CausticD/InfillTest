@@ -4,4 +4,4 @@ This is a simple model that has a curved outer surface that uses an exposed Gyro
 
 The key setting is "Max comb distance with no retract" in Cura. Setting this to something like 0.2mm, massively down from the default of 30mm
 
-To use this, either drag the premade .3mf into Cura or your slicer of choice, or run the batch file to re-export the scad file into a 3mf using my Smart3MF tool.
+To use this, run the batch file to re-export the scad file into a 3mf using my Smart3MF tool, then drag the .3mf into Cura or your slicer of choice.
